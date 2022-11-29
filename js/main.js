@@ -20,7 +20,7 @@ elForm.addEventListener("submit", function (evt) {
 
     if (elSelect.value == 1) {
       elTitle.textContent = "1 rubl = 184.46 so'm";
-      elResult.textContent = MoneyGramm1.toFixed(2) + " Rubl";
+      elResult.textContent = MoneyGramm1.toFixed(2) + " ₽";
     } else if (elSelectValue == 0 && elInputValue == " ") {
       elTitle.textContent = "Son va Valyuta kiriting!!!";
     } else if (elSelectValue == 0) {
@@ -46,7 +46,7 @@ elForm.addEventListener("submit", function (evt) {
 
     if (elSelect.value == 3) {
       elTitle.textContent = "1 Euro = 11686 so'm";
-      elResult.textContent = MoneyGramm3.toFixed(2) + " Euro";
+      elResult.textContent = MoneyGramm3.toFixed(2) + " €";
     } else if (elSelectValue == 0 && elInputValue == " ") {
       elTitle.textContent = "Son va Valyuta kiriting!!!";
     } else if (elSelectValue == 0) {
