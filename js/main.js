@@ -12,9 +12,9 @@ elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   var elInputValue = +elInput.value;
   var elSelectValue = +elSelect.value;
-  var MoneyGramm1 = elInputValue * Rubl;
-  var MoneyGramm2 = elInputValue * Usd;
-  var MoneyGramm3 = elInputValue * Euro;
+  var MoneyGramm1 = elInputValue / Rubl;
+  var MoneyGramm2 = elInputValue / Usd;
+  var MoneyGramm3 = elInputValue / Euro;
 
     // RUBL
 
